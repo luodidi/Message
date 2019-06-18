@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="powderblue">#B0E0E6</color><!--粉蓝色 -->
+
+    <color name="gainsboro">#DCDCDC</color><!--淡灰色 -->
+</resources>

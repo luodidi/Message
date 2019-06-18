@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">短信</string>
+    <string name="action_settings">设置</string>
+    <string name="message_content">发送</string>
+</resources>

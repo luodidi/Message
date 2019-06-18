@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/contact_image"
+        android:layout_width="0dip"
+        android:layout_height="0dip"
+        android:layout_alignParentLeft="true">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="160dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dip"
+        android:layout_toRightOf="@id/contact_image"
+        android:singleLine="true"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/descTextView"
+        android:layout_width="180dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleTextView"
+        android:layout_marginBottom="10dip"
+        android:layout_toRightOf="@id/contact_image"
+        android:singleLine="true"
+        android:textSize="20sp" />
+    <!-- android:layout_alignParentBottom="true" -->
+    <TextView
+        android:id="@+id/countTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dip"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/timeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/descTextView"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dip"
+        android:singleLine="true"
+        android:textSize="15sp" />
+
+    <ListView
+        android:id="@+id/messageListView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="50dip">
+    </ListView>
+
+
+
+
+</RelativeLayout>
